@@ -287,5 +287,6 @@ footer p {
 
   body {
     position: absolute;
+    width: 100vw;
   }
 }
