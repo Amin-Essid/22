@@ -285,7 +285,12 @@ footer p {
     margin-bottom:5px;
   }
 
-  body {
-    position: absolute;
+  html, body {
+    overflow-x:hidden 
+  } 
+
+  img {
+    width: 100vw;
   }
+
 }
