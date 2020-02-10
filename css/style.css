@@ -125,6 +125,8 @@ header a:hover{
 #showcase h1{
   font-size:35px;
   margin-bottom:1px;
+  color: #e8491d;
+  font-weight: bold;
 }
 
 .timer {
@@ -293,4 +295,18 @@ footer p {
     width: 100vw;
   }
 
+
+
+}
+
+@media(max-width: 500px){
+  #showcase{
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0, 0, 0, 0.6)) ), url('../img/wewon2.png') no-repeat;
+    background: -o-linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.6) ), url('../img/wewon2.png') no-repeat;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.6) ), url('../img/wewon2.png') no-repeat;
+  }
+
+  .timer {
+    line-height: 40px;
+  }
 }
