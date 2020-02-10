@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
@@ -5,6 +7,10 @@ body{
   background-color:#f4f4f4;
   direction: rtl;
   font-family: 'Tajawal', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Global */
@@ -20,12 +26,29 @@ ul{
 }
 
 .button_1{
+  padding: 10px;
   height:38px;
   background:#e8491d;
   border:0;
-  padding-left: 20px;
-  padding-right:20px;
   color:#ffffff;
+}
+
+.list {
+  margin-bottom: 20px;
+}
+
+.tahmil {
+  display: block;
+  padding: 10px;
+  height:25px;
+  width: 200px;
+  background: #35424a;
+  border:0;
+  color:#ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dark{
@@ -89,6 +112,8 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:300px;
+  background: -webkit-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0, 0, 0, 0.6)) ), url('../img/wewon.png') no-repeat;
+  background: -o-linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.6) ), url('../img/wewon.png') no-repeat;
   background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.6) ), url('../img/wewon.png') no-repeat;
   text-align:center;
   color:#ffffff;
@@ -210,6 +235,21 @@ footer{
 
 footer p {
   font-size: 30px;
+}
+
+.fact {
+  text-align: center;
+}
+
+.fact-h1 {
+  padding: 20px;
+  margin-top:35px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+.fact-p {
+  font-size: 20px;
 }
 
 /* Media Queries */
